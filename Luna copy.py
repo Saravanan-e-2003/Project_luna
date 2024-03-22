@@ -88,10 +88,10 @@ walk_positive = [tk.PhotoImage(file=impath+'run_negative.gif',format = 'gif -ind
 walk_negative = [tk.PhotoImage(file=impath+'run.gif',format = 'gif -index %i' %(i)) for i in range(8)]#walk to right gif
 jump = [tk.PhotoImage(file=impath+'jump.gif',format = 'gif -index %i' %(i)) for i in range(6)]
 
-window.config(highlightbackground='black')
-label = tk.Label(window,bd=0,bg='black')
+window.config(highlightbackground='white')
+label = tk.Label(window,bd=0,bg='white')
 window.overrideredirect(True)
-window.wm_attributes('-transparentcolor','black')
+window.wm_attributes('-transparentcolor','white')
 label.pack()
 
 #main event loop
